@@ -1,0 +1,14 @@
+{
+  "name": "luna-blog",
+  "version": "1.0.0",
+  "description": "A minimal static blog powered by Markdown",
+  "scripts": {
+    "build": "node src/build.js",
+    "dev": "node src/build.js && node src/dev-server.js",
+    "new-post": "node src/new-post.js"
+  },
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "marked": "^15.0.7"
+  }
+}

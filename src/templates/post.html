@@ -1,0 +1,21 @@
+<a href="/" class="back-link">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+    </svg>
+    Back to all posts
+</a>
+
+<article>
+    <header class="article-header">
+        <h1>{{post_title}}</h1>
+        <div class="article-meta">
+            <time datetime="{{post_date_iso}}">{{post_date}}</time>
+            <span class="separator">·</span>
+            <span class="reading-time">{{reading_time}} min read</span>
+        </div>
+    </header>
+
+    <div class="prose">
+        {{post_content}}
+    </div>
+</article>
