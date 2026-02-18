@@ -7,5 +7,5 @@ module.exports = {
 
   // Hero section
   hero_title: "Hi, I'm Luna",
-  hero_subtitle: "Healthcare worker and writer. I share thoughts on medicine, patient care, and my life.",
+  hero_subtitle: "Healthcare worker and writer. I share thoughts on radiologist, medical radiation, and my life.",
 };
