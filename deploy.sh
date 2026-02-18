@@ -17,8 +17,8 @@ fi
 
 echo "✅ Build succeeded"
 
-# Stage all changes
-git add -A
+# Stage only posts and about page
+git add posts/*md content/about.md
 
 # Check if there are changes to commit
 if git diff --cached --quiet; then
