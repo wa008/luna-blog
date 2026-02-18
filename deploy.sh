@@ -1,22 +1,5 @@
 #!/bin/bash
 
-# Deploy blog to Cloudflare Pages via git push
-
-echo ""
-echo "🚀 Deploying blog..."
-echo "─────────────────────"
-
-# Build the site first
-echo "📦 Building..."
-npm run build
-
-if [ $? -ne 0 ]; then
-  echo "❌ Build failed. Fix errors and try again."
-  exit 1
-fi
-
-echo "✅ Build succeeded"
-
 # Stage only posts and about page
 git add posts/*md content/about.md
 
