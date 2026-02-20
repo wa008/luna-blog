@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Pull latest changes from remote
+echo "⬇️  Pulling latest changes..."
+git pull origin main
+
 # Stage only posts and about page
 git add posts/*md content/about.md
 
